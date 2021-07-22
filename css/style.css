@@ -99,8 +99,8 @@ button.btn-blog-stdy{
 }
 .readmor-close::after {
     font-size: initial;
-    content: "ClOSE";
-    padding: 1.6em 1em;
+    content: "Hide";
+    padding: 1.4em 1em;
     font-weight: bold;
     display: block;
 }
