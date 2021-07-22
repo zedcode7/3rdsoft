@@ -1,0 +1,123 @@
+body,p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+}
+button a{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Russo One', sans-serif;
+}
+.text-l-dark{
+    color: #535353;
+}
+.text-l-light{
+    color: #cccccc;
+}
+.text-theme-blue{
+    color: #1B75BA;
+}
+.bg-theme-blue{
+    background-color: #1B75BA !important;
+}
+#header-main{
+    background-color: #1B75BA;
+    max-height: 110px;
+}
+ul.nav-header li a{
+    font-size: 1.4em;
+}
+ul.nav-header li:hover a,
+ul.nav-header li a.current{
+    background-color: #222;
+    border-bottom: 2px solid #fff;
+}
+#social-sect{
+    background-color: #222;
+}
+.social-font-box{
+    font-size: 2em;
+    color: #fff;
+}
+#copyright-sect,.bg-l-blue{
+    background-color: aliceblue;
+}
+.social-font-box i:hover{
+    color: #1B75BA;
+}
+.showcase-bg{
+    background-size: cover;
+    background-position: 100% 100%;
+    min-height: 30vh;
+}
+.shocase-header h3{
+    font-family: 'Russo One', sans-serif;
+    font-size: 30px;
+    text-shadow: 0px 1px 6px #000;
+   
+}
+a.btn-case-stdy{ 
+    border:none;
+    border-radius: 50% !important;
+    color: #1B75BA;
+    padding: 1em; 
+    font-weight: bold;
+}
+button.btn-blog-stdy{ 
+    border:none;
+    border-radius: 50% !important;
+    color: #1B75BA;
+    padding: 1em; 
+    font-weight: bold;
+    display: block;
+    text-align: center;
+}
+.btn-submit-form{
+    color: #1B75BA;
+    border:none;
+    border-radius: 50%;
+    padding: 1.4em .8em; 
+}
+.bg-seller-trust{
+    background-image: url(../imgs/truested_bg.jpg);
+}
+.blogs-img{
+    max-width: 200px;
+}
+/* blog page expand css */
+.full-read-text {
+    display: none;
+}
+.expanded .full-read-text {
+ display: inline;
+  }
+.expanded .text-excerpt{
+ display: none;
+}
+.readmor-close {
+    font-size: 0px;
+}
+.readmor-close::after {
+    font-size: initial;
+    content: "ClOSE";
+    padding: 1.6em 1em;
+    font-weight: bold;
+    display: block;
+}
+
+@media only screen and (max-width: 768px) {
+    #header-main{
+        max-height: 150px;
+    }
+
+    .logo img{
+        max-width: 140px;
+    }
+  
+}
+@media only screen and (max-width: 768px) {
+    #header-main{
+        max-height: 150px;
+    }
+  
+}
